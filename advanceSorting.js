@@ -12,7 +12,7 @@ var res = students.sort(function(a, b) {
   // console.log(a.name);
   // console.log(b.name);
   if (a.name === b.name) {
-    return a.age - b.age;
+    return b.age - a.age;
   } else if(a.name < b.name) {
     return - 1;
   } else if(a.name > b.name) {
